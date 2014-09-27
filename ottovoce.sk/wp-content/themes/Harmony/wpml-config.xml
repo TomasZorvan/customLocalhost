@@ -1,0 +1,19 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">gallery</custom-type>
+		<custom-type translate="1">event</custom-type>
+	</custom-types>
+	<admin-texts>
+		<key name="et_harmony">
+			<key name="styleshop_date_format" />
+			<key name="styleshop_recent_news_title" />
+			<key name="styleshop_upcoming_shows_title" />
+			<key name="styleshop_featured_songs_title" />
+			<key name="styleshop_shop_section_title" />
+			<key name="styleshop_media_gallery_section_title" />
+			<key name="styleshop_seo_home_titletext" />
+			<key name="styleshop_seo_home_descriptiontext" />
+			<key name="styleshop_seo_home_keywordstext" />
+		</key>
+	</admin-texts>
+</wpml-config>

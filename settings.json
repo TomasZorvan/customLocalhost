@@ -1,0 +1,5 @@
+{
+	"localhost_dir": "/var/www/html",
+	"exclude_dirs": "phpmyadmin, img, css, js",
+	"date_format": "F d, Y H:i:s"
+}

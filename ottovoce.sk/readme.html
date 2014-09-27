@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>WordPress &#8250; ČítajMa</title>
+	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
+</head>
+<body>
+<h1 id="logo">
+	<a href="https://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
+	<br /> Version 4.0
+</h1>
+<p style="text-align: center">Osobná sémantická publikačná platforma</p>
+
+<h1>Na úvod</h1>
+<p>Vitajte! WordPress je pre mňa niečo výnimočné. Každý vývojár a prispievateľ doň pridáva niečo unikátne a spoločne tak vytvárame niečo skutočne krásne. Som hrdý, že sa na tom podieľam. WordPress je výsledkom tisícok hodín zanietenej práce a sme odhodlaní každý deň ho ďalej zlepšovať. Ďakujeme, že ste sa rozhodli zaradiť WordPress do vášho sveta.</p>
+<p style="text-align: right">&#8212; Matt Mullenweg</p>
+
+<h1>Inštalácia: Slávna 5-minútová Inštalácia</h1>
+<ol>
+	<li>Rozbaľte archív do prázdneho adresára a všetko nahrajte.</li>
+	<li>Otvorte <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> vo vašom prehliadači. Prevedie Vás cez proces nastavenia súboru <code>wp-config.php</code> s podrobnostami o vašej databáze.
+		<ol>
+			<li>Ak pre nejaký dôvod toto nefunguje, neobávajte sa. Nefunguje to na všetkých hostingoch. Otvorte <code>wp-config-sample.php</code> s textovým editorom ako WordPad, alebo podobným a vyplnte podrobnosti o vašej databáze.</li>
+			<li>Uložte súbor ako <code>wp-config.php</code> a nahrajte ho.</li>
+			<li>Otvorte <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> vo vašom prehliadači.</li>
+		</ol>
+	</li>
+	<li>Potom ako je konfiguračný súbor nastavený, nastaví inštalátor tabuľky pre váš blog. Ak sa objaví chyba, dvakrát skontrolujte váš súbor <code>wp-config.php</code>, a vyskúšajte to znovu. Ak to zlyhá opäť, prosím choďte na <a href="http://wp.sk/forum/" title="Fórum podpory pre WordPress v Slovenčine">fóra podpory [SK]</a> ⎪ <a href="http://wordpress.org/support/" title="WordPress podpora v angličtine">[EN]</a> s čo najviac dátami ako môžete zozbierať o chybe.</li>
+	<li><strong>Ak ste nevložili heslo, všimnite si že vám heslo bolo pridelené.</strong> Ak neposkytnete heslo, bude to <code>admin</code>.</li>
+	<li>Inštalátor by vás mal poslať na <a href="wp-login.php">prihlasovaciu stránku</a>. Prihláste sa s užívateľským menom a heslom ktoré ste si vybrali počas inštalácie. Ak vám bolo vygenerované heslo, môžete potom kliknúť na 'Profil' pre zmenu hesla.</li>
+</ol>
+
+<h1>Aktualizácia</h1>
+<h2>Používanie Automatického aktualizátora</h2>
+<p>Ak aktualizujete z verzie 2.7 alebo vyššej, môžete použiť automatickú aktualizáciu:</p>
+<ol>
+	<li>Otvorte <span class="file"><a href="wp-admin/update-core.php">wp-admin/update-core.php</a></span> vo vašom prehliadači a nasledujte inštrukcie.</li>
+	<li>Pravdepodobne chcete viac? To je ono!</li>
+</ol>
+
+<h2>Manuálna Aktualizácia</h2>
+<ol>
+	<li>Pred tým ako čokoľvek aktualizujete, uistite sa, že máte záložnú kópiu akýchkoľvek súborov ktoré môžete mať upravené ako <code>index.php</code>.</li>
+	<li>Zmažte vaše staré WordPress súbory, po uložení tých ktoré máte upravené.</li>
+	<li>Nahrajte nové súbory.</li>
+	<li>Nasmerujte váš prehliadač na <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a>.</span></li>
+</ol>
+
+<h1>Migrácia z iných systémov</h1>
+<p>WordPress môže <a href="http://codex.wordpress.org/Importing_Content">importovať z množstva systémov</a>. Najprv potrebujete inštalovaný a funkčný  WordPress ako je popísané vyššie, pred tým ako použijete <a href="wp-admin/import.php" title="Import to WordPress">naše importačné nástroje</a>.</p>
+
+<h1>Systémové Požiadavky</h1>
+<ul>
+	<li><a href="http://php.net/">PHP</a> verzie <strong>5.2.4</strong> alebo vyššia.</li>
+	<li><a href="http://www.mysql.com/">MySQL</a> verzie <strong>5.0</strong> alebo vyššia.</li>
+</ul>
+
+<h2>Systémové Odporúčania</h2>
+<ul>
+	<li>Apache modul <a href="http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a>.</li>
+	<li>Odkaz na <a href="http://sk.wordpress.org/">http://sk.wordpress.org</a> na vašej stránke.</li>
+</ul>
+
+<h1>Online Zdroje</h1>
+<p>Ak máte akékoľvek otázky ktoré neboli vysvetlené v tomto dokumente, prosím využite výhodu množstva online zdrojov pre WordPress:</p>
+<dl>
+	<dt><a href="http://codex.wordpress.org/">WordPress Codex</a>[EN/SK]</dt>
+		<dd>Codex je encyklopédia o celom WordPress. Je to najkomplexnejší dostupný zdroj informácii pre WordPress.</dd>
+	<dt><a href="http://wordpress.org/news/">WordPress Blog</a></dt>
+		<dd>Tuto je miesto kde najdete najnovšie aktualizácie a novinky spojené s WordPress. Posledné WordPress novinky sa zobrazujú prednastavene vo vašej administračnej nástenke.</dd>
+	<dt><a href="http://planet.wordpress.org/">Planéta WordPress</a></dt>
+		<dd>Planéta WordPress je zberateľ noviniek ktorý spája dokopy články z WordPress blogov po celom webe.</dd>
+	<dt><a href="http://wordpress.org/support/">Fóra Podpory WordPress</a></dt>
+		<dd>Ak ste sa všade pozerali a stále neviete nájsť odpoveď, fóra podpory sú veľmi aktívne a má veľkú komunitu pripravenú pomôcť. Aby ste im pomohli Vám pomôcť uistite sa, že použijete výstižný názov vlákna a popíšete vašu tak podrobne ako to je len možné.</dd>
+	<dt><a href="http://sk.wordpress.org/">WordPress Slovensko</a></dt>
+		<dd>Toto je oficiálna stránka WordPress Slovensko, ktorá spravuje lokalizáciu slovenčiny a hlavnú podporu v tomto jazyku. Môžete na nej stiahnuť najnovšie aktualizácie WordPress v Slovenčine. Rovnako však môžete použiť automatickú aktualizáciu priamo zo svojej inštalácie WordPress pokiaľ máte v súbore wp-config.php nastavenú hodnotu <code>WPLANG</code> na <code>sk_SK</code>.</dd>
+	<dt><a href="http://wp.sk/">WP.sk</a></dt>
+		<dd>WordPress stránka slovenskej komunity okolo WordPress, je možné na nej nájsť rôzne lokalizácie k modulom, novinky alebo tipy a triky pre WordPress.</dd>
+	<dt><a href="http://www.techforum.sk/forumdisplay.php?f=2">Techfórum</a></dt>
+		<dd>Slovenské fórum fanúšikov WordPress, pripravených Vám pomôcť s vašimi otázkami.</dd>
+	<dt><a href="http://codex.wordpress.org/IRC">WordPress <abbr title="Internet Relay Chat">IRC</abbr> Kanál</a></dt>
+		<dd>Tu je online chat kanál ktorý sa používa na diskusiu medi ľudmi čo používajú WordPress a príležitostne pomáhajú riešiť problémy. Wiki stránka vyššie by vás mala nasmerovať správnym smerom. (<a href="irc://irc.freenode.net/wordpress">irc.freenode.net #wordpress</a>)</dd>
+</dl>
+
+<h1>Konečné Poznámky</h1>
+<ul>
+	<li>Ak máte akékoľvek návrhy, nápady, alebo komentáre, alebo ak ste (sakra!) našli chybu, pridajte sa k nám do <a href="http://sk.forums.wordpress.org/">Fóra pre podporu WordPress</a>.</li>
+	<li>WordPress má robustné <abbr title="application programming interface">API</abbr> pre moduly čo umožnuje ľahko rozšíriť kód. Ak ste vývojár zaujatý vo využití tohto, pozrite si <a href="http://codex.wordpress.org/Plugin_API" title="WordPress plugin API">dokumentáciu modulov v Codex</a>. Nemali by ste upravovať akýkoľvek kód jadra.</li>
+</ul>
+
+<h1>Šírte Lásku</h1>
+<p>WordPress nemá žiadnu multi-millión dolárovú marketingovú kampaň, alebo celebrity ako sponzorov, ale máme niečo ešte lepšie&#8212;Vás. Ak sa tešíte z WordPress prosím uvážte či o tom nepoviete priateľovi, nahodíte to niekomu menej skúsenému ako ste vy sám, alebo napíšete autorovi mediálnych článkov ktorý nás prehliadol.</p>
+
+<p>WordPress je oficiálne pokračovanie <a href="http://cafelog.com/">b2/caf&#233;log</a>, čo vzniklo z Michel V. Práca pokračuje pomocou <a href="http://wordpress.org/about/">WordPress vývojárov</a>. Ak by ste radi podporili WordPress, prosím zvážte <a href="http://wordpress.org/donate/" title="Prispieť na WordPress">príspevok</a>.</p>
+
+<h1>Autorské Práva</h1>
+<p>WordPress je vydaný pod <abbr title="GNU Public License">GPL</abbr>v2 (pozrite <a href="license.txt">license.txt</a>, alebo slovenský preklad licencie <a href="licencia-sk_SK.txt">licencia-sk_SK.txt</a>).</p>
+
+</body>
+</html>
